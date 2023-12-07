@@ -20,4 +20,4 @@ def sum_mixed_list(mxd_lst: ListOfNumbers) -> float:
     if len(mxd_lst) == 1:
         return mxd_lst[0]
     item, *remaining = mxd_lst
-    return item + sum_mixed_list(remaining)
+    return float(item + sum_mixed_list(remaining))
